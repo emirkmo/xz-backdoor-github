@@ -10,6 +10,10 @@ Using ClickHouse's database of all repo events across GitHub ever, I created thr
 of github events: the suspect users contributions, and one of all events in their shared project repo
 that actually hosted the compromised releases.
 
+Datasets are CSV files with a header row and a data type row, following
+ClickHouse's [CSVWithNamesAndTypes](https://clickhouse.com/docs/en/interfaces/formats#csvwithnamesandtypes)
+Format.
+
 ### Contributions: JiaT75
 
 Contributions by prime sispect user JiaT75 (Jia Tan). 
