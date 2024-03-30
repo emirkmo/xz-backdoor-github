@@ -21,9 +21,10 @@ File:
 
 GitHub events (commits, comments, etc.) from https://github.com/tukaani-project
 filted to before discovery (as there are a lot of unserious comments/events after discovery)
+file_time <= '2024-03-29 15:59:59'
 
 File:
-`tuukani_project.csv`
+`tuukani_project_before_discovery.csv`
 
 ### Contributions: Larhzu
 
